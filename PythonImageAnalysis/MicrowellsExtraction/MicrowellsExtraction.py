@@ -16,8 +16,6 @@ import sys
 import timeit
 
 
-#I can define the functions already used outside of the main function.
-
 #This is the function that creates each single "square":
 def returnSquare(coords, radius, refImage):
     y = np.uint16(np.round(coords[0]))
