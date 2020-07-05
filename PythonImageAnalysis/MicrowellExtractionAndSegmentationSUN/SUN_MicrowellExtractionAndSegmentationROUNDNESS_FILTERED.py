@@ -721,7 +721,7 @@ def segmentation(mainFolder : str = ""):
 ###############################################################################################################
 ####                                     EXECUTION CODE FROM HERE                                          ####
 ###############################################################################################################
-mainFolder = "/Users/andrea/Desktop/SUN_Images/96Agarose"
+mainFolder = "/path/to/your/folder"
 
 
 #Execution of microwell extraction:

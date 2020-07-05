@@ -258,7 +258,7 @@ def processFiles(folder : str = "", radius : int = 330, minsize : int = 20000, m
                 
 totalStartTime = timeit.default_timer()
 try:
-    processFiles("/Users/andrea/Desktop/Sylke_Images/Trial/", radius = 330, minsize = 20000, maxsize = 350000, Zproject = None)
+    processFiles("/path/to/your/folder", radius = 330, minsize = 20000, maxsize = 350000, Zproject = None)
 except FileNotFoundError:
     sys.stderr.write("Ehi you!! Provide as argument to the \"processFiles\" function a valid path to a folder!")
     raise
